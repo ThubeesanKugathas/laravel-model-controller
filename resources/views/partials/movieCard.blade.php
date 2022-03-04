@@ -1,9 +1,8 @@
 @foreach($data as $movie)
-    <div>
-        <h1>{{ $movie->title}}</h1>
-        <h2>{{ $movie->nationality }}</h2>
-        <h2>{{ $movie->original_title }}</h2>
-        <h2>{{ $movie->vote }}</h2>
-        <h2>{{ $movie->date }}</h2>
+    <div class="mb-4 ms_card">
+        <h4>Titolo: {{ $movie->title}}</h4>
+        <p>Titolo originale: {{ $movie->original_title }} - {{ $movie->nationality}}</p>
+        <p>Data uscita: {{ $movie->date }}</p>
+        <p>Voto medio: {{ $movie->vote }}</p>
     </div>
 @endforeach

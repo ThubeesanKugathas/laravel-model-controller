@@ -12173,3 +12173,24 @@ fieldset:disabled .btn {
   }
 }
 
+header {
+  background-color: #222;
+  color: #fff;
+  height: 80px;
+}
+
+.ms_fluid {
+  background-color: #333;
+}
+
+.ms_card {
+  width: calc((100% - 40px) / 5);
+  background-color: grey;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  height: 80px;
+}
+
